@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/us', (req, res)=> {
-    res.send('About Us! (Demo endpoint for routing practice')
+    res.send('About Us! (Demo endpoint for routing practice)')
 })
 
 export default router
