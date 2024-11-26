@@ -1,5 +1,4 @@
 import { Router } from 'express'
-import User from './models/User'
 import create from './handlers'
 const router = Router()
 
