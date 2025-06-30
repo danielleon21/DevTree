@@ -3,8 +3,10 @@ import { NavLink } from "react-router";
 export default function RegisterView(){
     return(
         <>
-            <div className="text-2xl text-red-500">Register view</div>
-            <NavLink to="/auth/login" end>¿Ya tienes cuenta? Inicia sesión.</NavLink>
+            <div className="text-4xl text-white font-bold">Crea tu cuenta.</div>
+            <nav className="mt-10">
+                <NavLink className="text-white text-center text-lg block" to="/auth/login" end>¿Ya tienes cuenta? Inicia sesión.</NavLink>
+            </nav>
         </>
     )
 }
