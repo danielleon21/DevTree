@@ -2,7 +2,6 @@ import User from "../models/User"
 import type { Request, Response } from "express"
 import { checkPass, hashPass } from "../utils/auth"
 import slug from 'slug'
-import { validationResult } from "express-validator"
 
 export const create = async (req: Request, res: Response) => {
     const { email, password } = req.body
